@@ -1,5 +1,7 @@
 import UIKit
 
+import UIKit
+
 // ********************* KARŞILAŞTIRMA OPERATÖRÜ *********************
 
 // Eşittir ==
@@ -429,4 +431,5 @@ let sicaklik = Measurement.init(value: 30, unit: UnitTemperature.celsius) //30 d
 
 let d1 = sicaklik.converted(to: .fahrenheit)
 print(d1)
+
 
